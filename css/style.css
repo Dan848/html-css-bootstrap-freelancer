@@ -34,7 +34,7 @@ main {
     padding-top: 56px;
 }
 
-#hero, #about  {
+#hero, #about, #contact button  {
     background-color: var(--light-green);
 }
 
@@ -57,7 +57,10 @@ main {
     background-color: var(--dark-text);
 }
 
-#portfolio, #contact {
+#portfolio, #contact,
+#contact form div input::placeholder,
+#contact form div textarea::placeholder
+ {
     color: var(--dark-text);
 }
 
